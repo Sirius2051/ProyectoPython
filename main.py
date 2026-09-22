@@ -22,7 +22,7 @@ font-family: Consolas;
 """
 )
 
-button = QPushButton("Ver")
+button = QPushButton("Ver precio")
 button.setStyleSheet(
 """
 background: rgb(45, 90, 212);
