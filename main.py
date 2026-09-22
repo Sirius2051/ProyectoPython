@@ -7,7 +7,7 @@ app = QApplication([])
 
 window = QWidget()
 window.resize(600, 300)
-window.setWindowTitle("Conversines al dia")
+window.setWindowTitle("Conversiones al dia")
 # icon = QIcon()
 # pixmap = QPixmap()
 # pixmap.load("treasure.png")
