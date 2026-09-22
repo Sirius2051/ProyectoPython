@@ -18,7 +18,7 @@ window.setStyleSheet(
 color: #efefef;
 background: #232323;
 font-size: 16pt;
-font-family: Consolas;
+font-family: Cascadia Mono;
 """
 )
 
