@@ -6,8 +6,8 @@ from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QLabel, QVBoxLay
 app = QApplication([])
 
 window = QWidget()
-window.resize(600, 300)
-window.setWindowTitle("Dolar Al Dia")
+window.resize(800, 400)
+window.setWindowTitle("Conversiones lol")
 # icon = QIcon()
 # pixmap = QPixmap()
 # pixmap.load("treasure.png")
@@ -22,7 +22,7 @@ font-family: Consolas;
 """
 )
 
-button = QPushButton("Ver")
+button = QPushButton("Ver precio")
 button.setStyleSheet(
 """
 background: rgb(45, 90, 212);
@@ -35,9 +35,11 @@ padding: 10px 5px;
 
 dolar_label = QLabel("Dolar") 
 dolar_label.setStyleSheet(
+
 """
 font-weight: bold;
 font-size: 14pt;
+
 """
 )
 euros_label = QLabel("Euro") 
@@ -81,6 +83,7 @@ precios_layout = QHBoxLayout()
 main_layout.addWidget(button)
 text_layout.addWidget(dolar_label, alignment=Qt.AlignCenter)
 text_layout.addWidget(euros_label, alignment=Qt.AlignCenter)
+
 main_layout.addLayout(text_layout)
 
 values_layout.addWidget(dolar_values, alignment=Qt.AlignCenter)
